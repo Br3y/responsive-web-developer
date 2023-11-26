@@ -76,3 +76,22 @@ body {
   font-family: "Space Mono", monospace;
   margin-bottom: 114px;
 }
+#footer {
+  color: #bdbdbd;
+  font-family: "Montserrat", monospace;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+#footer p {
+  margin-bottom: 24px;
+  margin-left: -1.5rem;
+  text-align: center;
+}
+
+#footer span {
+  text-decoration-line: underline;
+  font-weight: 700;
+}
