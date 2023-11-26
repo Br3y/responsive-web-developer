@@ -33,3 +33,13 @@ body {
   align-items: center;
   justify-content: center;
 }
+
+   /* main img scarecrow */
+   #scarecrow {
+    width: 286px;
+    height: 238px;
+    align-self: start;
+    margin: 60px 20px 60px 20px;
+    flex-shrink: 0;
+  }
+  
