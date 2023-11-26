@@ -95,3 +95,40 @@ body {
   text-decoration-line: underline;
   font-weight: 700;
 }
+@media screen and (min-width: 768px) {
+  body {
+    width: 768px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  #title {
+    margin-left: 1.5rem;
+  }
+  #container {
+    margin: 5em 0 9em 0;
+    flex-direction: row;
+    align-items: center;
+    gap: 75px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  body {
+    width: 1024px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  #title {
+    margin-left: 1.5rem;
+  }
+  #scarecrow {
+    width: 539.224px;
+    height: 447.426px;
+  }
+  #container {
+    margin: 8em 0 10em 0;
+    flex-direction: row;
+    align-items: center;
+    gap: 75px;
+  }
+}
