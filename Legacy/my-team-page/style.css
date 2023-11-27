@@ -8,3 +8,16 @@
     margin:0;
     padding:0
 }
+
+.title-section{
+    margin:71px 85px 38px 12px;
+}
+.title-section h1{
+    color:#000;
+    font-family: 'PT Serif', serif;
+    font-size:36px;
+    font-style:normal;
+    font-weight:700;
+    line-height: normal;
+    letter-spacing: -1.62px;
+}
