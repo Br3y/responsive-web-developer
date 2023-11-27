@@ -9,6 +9,7 @@
     padding:0
 }
 
+/* first section */
 .title-section{
     margin:71px 85px 38px 12px;
 }
@@ -22,6 +23,7 @@
     letter-spacing: -1.62px;
 }
 
+/* second section */
 .who-we-are{
     margin-left:12px;
 }
@@ -48,3 +50,9 @@
     line-height: normal;
 }
 
+/* third section */
+.team-members{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap:25px;
+}
