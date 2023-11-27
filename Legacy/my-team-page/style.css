@@ -56,3 +56,10 @@
     grid-template-columns: repeat(2, 1fr);
     gap:25px;
 }
+
+.team-members img{
+    width:140px;
+}
+.team-members div{
+    display:flex;
+}
