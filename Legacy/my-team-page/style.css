@@ -1,65 +1,88 @@
 /* import */
-@import url('https://fonts.googleapis.com/css2?family=PT+Serif&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=PT+Serif&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
 
 /* reset */
-*, *:before, *:after{
-    box-sizing: border-box;
-    margin:0;
-    padding:0
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
-/* first section */
-.title-section{
-    margin:71px 85px 38px 12px;
+body{
+    width: 375px;
 }
-.title-section h1{
-    color:#000;
-    font-family: 'PT Serif', serif;
-    font-size:36px;
-    font-style:normal;
-    font-weight:700;
-    line-height: normal;
-    letter-spacing: -1.62px;
+/* first section */
+.title-section {
+  margin: 71px 85px 38px 12px;
+}
+.title-section h1 {
+  color: #000;
+  font-family: "PT Serif", serif;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: -1.62px;
 }
 
 /* second section */
-.who-we-are{
-    margin-left:12px;
+.who-we-are {
+  margin-left: 12px;
 }
-.who-we-are h2{
-    color:#000;
-    font-family:"Poppins", sans-serif;
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: normal;
-    text-transform: uppercase;
-    margin-bottom: 10px;    
+.who-we-are h2 {
+  color: #000;
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  text-transform: uppercase;
+  margin-bottom: 10px;
 }
-.who-we-are p{
-    width:333px;
-    height:87px;
-    flex-shrink: 0;
-    
-    color:#000;
-    font-family:"Poppins", sans-serif;
-    font-size: 14px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
+.who-we-are p {
+  width: 333px;
+  height: 87px;
+  flex-shrink: 0;
+
+  color: #000;
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
 }
 
 /* third section */
-.team-members{
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap:25px;
+.team-members {
+  display: grid;
+  margin-left: 19px;
+  grid-template-columns: repeat(2, 1fr);
 }
 
-.team-members img{
-    width:140px;
+.team-members img {
+  width: 140px;
 }
-.team-members div{
-    display:flex;
+.team-members div {
+  display: flex;
+  width:150px;
+}
+
+.team-members p {
+  width: 130px;
+  height: 11px;
+  transform: rotate(90deg);
+  flex-shrink: 0;
+  padding-left:15px;
+  padding-top:100px;
+
+  color: #000;
+  font-family: PT Serif;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: uppercase;
 }
