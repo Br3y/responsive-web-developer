@@ -11,54 +11,67 @@
     <title>This Interior</title>
   </head>
   <body>
-    <header class="header">
-      <nav class="nav container">
-        <h1 class="nav__title">This Interior</h1>
-        <div class="nav__menu">
-          <ul class="nav__list">
-            <li class="nav__item">Home</li>
-            <li class="nav__item">Collection</li>
-            <li class="nav__item">About</li>
-            <li class="nav__item">Contact</li>
-          </ul>
-        </div>
-        <span class="material-symbols-outlined"> menu </span>
-        <span class="material-symbols-outlined"> close </span>
-      </nav>
-    </header>
-    <main class="main">
-      <section class="interior section">
-        <div class="interior__container container grid">
-          <div class="interior__content grid">
-            <div>
-              <div class="interior__data">
-                <h1 class="interior__title">Modern interior</h1>
-                <p class="interior__description">
-                  A full-Service residential & commercial interior design and
-                  staging company offering professional organizing &
-                  eco-services.
-                </p>
-                <a href="#home" class="button button__flex">
-                  Read more
-                  <span class="material-symbols-outlined"> trending_flat </span>
-                </a>
-              </div>
-              <div class="interior__img">
-                <img src="./photo1.png" alt="" />
-                <div class="nested__data-img">
-                  <img src="./photo2.png" alt="" />
-                  <h3 class="nested-img__title">Aliza Webber</h3>
-                  <span class="nested-img__subtitle">Interior Designer</span>
-                  <p>Designed in 2020 by Aliza Webber</p>
+    <div class="body-container">
+      <header class="header">
+        <nav class="nav container">
+          <h1 class="nav__title">This Interior</h1>
+          <!-- <div class="nav__menu desktop">
+            <ul class="nav__list">
+              <li class="nav__item">Home</li>
+              <li class="nav__item">Collection</li>
+              <li class="nav__item">About</li>
+              <li class="nav__item">Contact</li>
+            </ul>
+          </div> -->
+          <div class="nav__menu mobile">
+            <div class="nav__menu">
+              <a href="#" class="nav__item">Home</a>
+              <a href="#" class="nav__item">Collection</a>
+              <a href="#" class="nav__item">About</a>
+              <a href="#" class="nav__item">Contact</a>
+            </div>
+          </div>
+          <span class="material-symbols-outlined close-menu"> close </span>
+          <span class="material-symbols-outlined open-menu"> menu </span>
+        </nav>
+      </header>
+      <main class="main">
+        <section class="interior section">
+          <div class="interior__container container grid">
+            <div class="interior__content grid">
+              <div>
+                <div class="interior__data">
+                  <h1 class="interior__title">Modern interior</h1>
+                  <p class="interior__description">
+                    A full-Service residential & commercial interior design and
+                    staging company offering professional organizing &
+                    eco-services.
+                  </p>
+                  <a href="#home" class="button button__flex">
+                    Read more
+                    <span class="material-symbols-outlined">
+                      trending_flat
+                    </span>
+                  </a>
+                </div>
+                <div class="interior__img">
+                  <img src="./photo1.png" alt="" />
+                  <div class="nested__data-img">
+                    <img src="./photo2.png" alt="" />
+                    <h3 class="nested-img__title">Aliza Webber</h3>
+                    <span class="nested-img__subtitle">Interior Designer</span>
+                    <p>Designed in 2020 by Aliza Webber</p>
+                  </div>
                 </div>
               </div>
             </div>
           </div>
-        </div>
-      </section>
-    </main>
-    <footer class="footer">
-      <p>created by <span>br3y</span> - devChallenges.io</p>
-    </footer>
+        </section>
+      </main>
+      <footer class="footer">
+        <p>created by <span>br3y</span> - devChallenges.io</p>
+      </footer>
+    </div>
+    <script src="menu.js"></script>
   </body>
 </html>
