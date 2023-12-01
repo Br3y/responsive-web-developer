@@ -141,6 +141,41 @@ body {
   }
 }
 
+/* main */
+.interior {
+  color: white;
+}
+.interior__title {
+  font-family: var(--lora-font);
+  font-size: 36px;
+  font-weight: 500;
+  margin:1em auto 0.5em;
+}
+.interior__description{
+  width:250px;
+  font-family:var(--montserrat-font);
+  font-size: 14px;
+  font-weight: 400;
+  margin-bottom: 0.5em;
+
+}
+
+.button{
+  color:#fff;
+  font-family: var(--montserrat-font);
+  font-size: 14px;
+  font-weight: 700;
+  text-decoration: none;
+
+  display:flex;
+  align-items: center;
+  gap:12px;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+.button .material-symbols-outlined{
+  font-size:24px;
+}
 img {
   width: 50%;
 }
