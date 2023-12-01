@@ -24,7 +24,7 @@ body {
 
 /* body-container */
 .body-container {
-  margin: 0.8em;
+  margin: 1.1em;
 }
 
 /* navbar */
@@ -86,7 +86,7 @@ body {
   color: #fff;
   font-family: var(--montserrat-font);
   margin-bottom: 32px;
-  font-size: 24px;
+  font-size: 18px;
   font-weight: 700;
   text-decoration: none;
   display: block;
@@ -112,13 +112,32 @@ body {
   .mobile {
     overflow-y: auto;
   }
-  .nav__item {
-    font-size: 20px;
-  }
   .mobile {
     font-size: 40px;
     top: 15px;
     right: 35px;
+  }
+}
+
+/* desktop navigation */
+@media screen and (min-width: 768px) {
+  .close-menu,
+  .open-menu,
+  .mobile {
+    display: none !important;
+  }
+  .nav__title {
+    visibility: visible !important;
+    align-self: center;
+  }
+  .desktop {
+    display: block;
+  }
+  .desktop .nav__menu {
+    display: flex;
+    margin-top: 0;
+    gap: 1em;
+    margin-right: 1em;
   }
 }
 
