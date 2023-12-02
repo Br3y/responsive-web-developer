@@ -228,3 +228,19 @@ body {
   font-weight: 700;
   width: 210px;
 }
+
+/* footer */
+.footer{
+  text-align:center;
+  color:#A9A9A9;
+  font-family: var(--montserrat-font);
+  font-size:14px;
+  font-weight:500;
+  margin-top:150px;
+  margin-bottom: 24px;
+}
+
+.footer span{
+  text-decoration: underline;
+  font-weight: 700;
+}
